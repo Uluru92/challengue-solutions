@@ -6,6 +6,10 @@ unsorted_list = [('first_element', 4), ('second_element', 2), ('third_element', 
 sorted_list = [('second_element', 2), ('first_element', 4), ('third_element', 6)]
 
 '''
+#Analysis:
+#they study each element with a for loop, stablish a minimun and then replace it with every element
+#then, replace the minimun if necesary untill creating a sorting list.
+#eveytime they found a new minimun, they push it to a new list
 
 unsorted_list = [('first_element', 4), ('second_element', 2), ('third_element', 6)]
 sorted_list = []

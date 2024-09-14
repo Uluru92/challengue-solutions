@@ -6,6 +6,8 @@ unsorted_list = [('first_element', 4), ('second_element', 2), ('third_element', 
 sorted_list = [('second_element', 2), ('first_element', 4), ('third_element', 6)]
 
 '''
+#Analysis:
+#Same process of pushing and removing using the minumun value from the position [1] but with a for loop.
 
 unsorted_list = [('first_element', 4), ('second_element', 2), ('third_element', 6)]
 sorted_list = []
